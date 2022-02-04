@@ -1,0 +1,10 @@
+<h1>Welcome</h1>
+<div [formGroup]= "mulForm">
+  <label>Input 1: </label><input type="number" formControlName = 'a'>
+  &nbsp;&nbsp;
+  <label>Input 2: </label><input type="number" formControlName = 'b'>
+  <button type="button" (click) = "submit()">Submit</button>
+</div>
+<div>
+  <p>Output: {{c}}</p>
+</div>
